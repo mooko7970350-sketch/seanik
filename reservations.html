@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Reservations | Seanik – Beachfront Dining, Maldives</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Site header -->
+    <header class="site-header">
+      <nav class="container nav" aria-label="Main navigation">
+        <a class="logo" href="index.html">Sea<span>nik</span></a>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false">☰</button>
+        <ul id="nav-links">
+          <li><a class="link" href="index.html">Home</a></li>
+          <li><a class="link" href="about.html">About</a></li>
+          <li><a class="link" href="menu.html">Menu</a></li>
+          <li><a class="link" href="team.html">Team</a></li>
+          <li><a class="link" href="contact.html">Contact</a></li>
+          <li><a class="btn small" href="reservations.html">Reserve</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero short">
+        <div class="container">
+          <h1>Reserve a table</h1>
+          <p>Choose your date and time, and tell us if it is a special occasion.</p>
+        </div>
+        <div class="wave back"></div>
+        <div class="wave"></div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="split">
+            <div class="card plain">
+              <form data-success-title="Request received" data-success-text="We will confirm by email shortly.">
+                <div class="form-row">
+                  <label>
+                    Name
+                    <input required>
+                  </label>
+                  <label>
+                    Phone
+                    <input type="tel" required>
+                  </label>
+                </div>
+                <div class="form-row">
+                  <label>
+                    Date
+                    <input type="date" required>
+                  </label>
+                  <label>
+                    Time
+                    <select>
+                      <option>12:00</option>
+                      <option>13:30</option>
+                      <option>18:30</option>
+                      <option>19:30</option>
+                      <option>21:00</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="form-row">
+                  <label>
+                    Guests
+                    <select>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7+</option>
+                    </select>
+                  </label>
+                  <label>
+                    Seating
+                    <select>
+                      <option>Beach sand</option>
+                      <option>Deck</option>
+                      <option>Indoor</option>
+                    </select>
+                  </label>
+                </div>
+                <label>
+                  Notes
+                  <textarea rows="3" placeholder="Allergies, birthdays, anything we should know"></textarea>
+                </label>
+                <button class="btn">Request table</button>
+              </form>
+            </div>
+            <div class="stack">
+              <div class="card">
+                <h3>Good to know</h3>
+                <p>
+                  Tables are held for 15 minutes. Sunset seating (17:30–19:00) books up fast, so
+                  reserve early. Groups over 8 should use our <a href="events.html">events page</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container grid c3">
+        <div>
+          <h3>Seanik</h3>
+          <p>
+            Beachfront dining on the shore of the Kaafu Atoll, Maldives. Fresh catch, island spice,
+            and a view of the lagoon.
+          </p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="events.html">Private events</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Visit</h3>
+          <ul>
+            <li>Beach Road, Kaafu Atoll, Maldives</li>
+            <li>+960 300 1234</li>
+            <li><a href="mailto:hello@seanik.mv">hello@seanik.mv</a></li>
+            <li>Open daily, 11:00 – 23:00</li>
+          </ul>
+        </div>
+      </div>
+      <p class="copy">© 2026 Seanik Restaurant. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
